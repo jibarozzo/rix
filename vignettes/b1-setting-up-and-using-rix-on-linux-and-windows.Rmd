@@ -147,7 +147,7 @@ the available space on your root partition is limited, we advise you to mount th
 hard drive). For this, edit `/etc/fstab` and add the following line at the end:
 
 ```
-/home/path_to/nix /nix none bind 0 0
+/nix /home/path_to/nix none bind 0 0
 ```
 
 This will map `/nix` to `/home/path_to/nix` which can be on a larger partition.
